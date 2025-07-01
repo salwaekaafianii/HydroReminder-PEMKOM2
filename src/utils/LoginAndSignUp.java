@@ -1,12 +1,15 @@
-package app;
+package utils;
+
+import app.LoginPage;
 
 public class LoginAndSignUp {
 
     public static void main(String[] args) {
-        Login LoginFrame = new Login();
+        LoginPage LoginFrame = new LoginPage();
         LoginFrame .setVisible(true);
         LoginFrame.pack();
         LoginFrame.setLocationRelativeTo(null);
     }
     
 }
+

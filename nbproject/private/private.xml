@@ -3,15 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/LoginAndSignUp.java</file>
-            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/Login.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/utils/LoginAndSignUp.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/LoginPage.java</file>
             <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/SignUp.java</file>
-            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/utils/Language.java</file>
             <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/db/DatabaseConnection.java</file>
             <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/utils/PasswordUtil.java</file>
-            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/Dashboard.java</file>
-            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/localization/Bundle.properties</file>
-            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/localization/Bundle_id.properties</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/InputData.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/Progress.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/images/timer.png</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/RiwayatHarian.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/utils/RiwayatMinum.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/Internationalization/Bundle.properties</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/Internationalization/Bundle_in_ID.properties</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/TambahDataRiwayat.java</file>
+            <file>file:/D:/Kuliah/Semester%204/PemKom2/HydroReminder-App/src/app/EditDataRiwayat.java</file>
         </group>
     </open-files>
 </project-private>
