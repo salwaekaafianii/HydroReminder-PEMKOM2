@@ -4,14 +4,38 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import db.DatabaseConnection;
+import java.util.Locale;
+import java.util.ResourceBundle;
 import javax.swing.JOptionPane;
 import utils.PasswordUtil;
 
 public class SignUp extends javax.swing.JFrame {
+    private Locale locale;
+    private ResourceBundle rb;
 
     public SignUp() {
+        this(new Locale("en", "US"));
         initComponents();
         setLocationRelativeTo(null);
+    }
+
+    public SignUp(Locale locale) {
+        this.locale = locale;
+        this.rb = ResourceBundle.getBundle("internationalization.Bundle", locale);
+        initComponents();
+        setLocationRelativeTo(null);
+        applyLanguage();
+    }
+
+    private void applyLanguage() {
+        setTitle(rb.getString("SignUp.title"));
+        Title.setText(rb.getString("SignUp.Title.text"));
+        labelnama.setText(rb.getString("SignUp.labelnama.text"));
+        labelemail.setText(rb.getString("SignUp.labelemail.text"));
+        labelpassword.setText(rb.getString("SignUp.labelpassword.text"));
+        ButtonSignUp.setText(rb.getString("SignUp.ButtonSignUp.text"));
+        jLabel4.setText(rb.getString("SignUp.jLabel4.text"));
+        ButtonLogin.setText(rb.getString("SignUp.ButtonLogin.text"));
     }
 
     @SuppressWarnings("unchecked")
@@ -247,7 +271,6 @@ public class SignUp extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Pendaftaran gagal: " + e.getMessage());
         }
     }//GEN-LAST:event_ButtonSignUpActionPerformed
-
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

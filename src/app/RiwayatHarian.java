@@ -186,7 +186,7 @@ public class RiwayatHarian extends javax.swing.JFrame {
                 "Tanggal", "Total", "Target"
             }
         ));
-        jTable1.setPreferredSize(new java.awt.Dimension(150, 80));
+        jTable1.setPreferredSize(new java.awt.Dimension(150, 300));
         jScrollPane1.setViewportView(jTable1);
 
         jPanel3.setBackground(new java.awt.Color(102, 204, 255));

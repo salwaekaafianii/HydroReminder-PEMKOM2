@@ -25,7 +25,7 @@ public class LoginPage extends javax.swing.JFrame {
         applyLanguage();
 
     }
-    
+
     //internationalization (i8n)
     //fungsi untuk menerapkan bahasa berdasarkan pilihan pengguna
     private void applyLanguage() {
@@ -269,10 +269,10 @@ public class LoginPage extends javax.swing.JFrame {
     }//GEN-LAST:event_NamaActionPerformed
 
     private void ButtonSignUpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonSignUpActionPerformed
-        SignUp SignUpFrame = new SignUp();
-        SignUpFrame.setVisible(true);
-        SignUpFrame.pack();
-        SignUpFrame.setLocationRelativeTo(null);
+        SignUp signUpFrame = new SignUp(Locale);
+        signUpFrame.setVisible(true);
+        signUpFrame.pack();
+        signUpFrame.setLocationRelativeTo(null);
         this.dispose();
     }//GEN-LAST:event_ButtonSignUpActionPerformed
 
